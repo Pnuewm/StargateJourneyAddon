@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.pnuewm.sgjourneyaddon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "itemGroup.sgjourneyaddon": "Example Mod Tab",
+  "block.sgjourneyaddon.example_block": "Example Block",
+  "item.sgjourneyaddon.example_item": "Example Item",
+
+  "sgjourneyaddon.configuration.title": "Stargate Journey Addon Configs",
+  "sgjourneyaddon.configuration.section.sgjourneyaddon.common.toml": "Stargate Journey Addon Configs",
+  "sgjourneyaddon.configuration.section.sgjourneyaddon.common.toml.title": "Stargate Journey Addon Configs",
+  "sgjourneyaddon.configuration.items": "Item List",
+  "sgjourneyaddon.configuration.logDirtBlock": "Log Dirt Block",
+  "sgjourneyaddon.configuration.magicNumberIntroduction": "Magic Number Text",
+  "sgjourneyaddon.configuration.magicNumber": "Magic Number"
+}
