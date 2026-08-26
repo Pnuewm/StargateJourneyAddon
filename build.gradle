@@ -154,7 +154,13 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_license            : mod_license,
             mod_version            : mod_version,
             mod_authors            : mod_authors,
-            mod_description        : mod_description
+            mod_description        : mod_description,
+            
+            sgjourney_version      : sgjourney_version,
+            create_version         : create_version,
+            twilight_version       : twilight_version,
+            cat_version            : cat_version,
+            zelda_version          : zelda_version
     ]
     inputs.properties replaceProperties
     expand replaceProperties
