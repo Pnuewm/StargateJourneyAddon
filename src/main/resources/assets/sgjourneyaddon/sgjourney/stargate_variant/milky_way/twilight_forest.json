@@ -1,0 +1,188 @@
+{
+	"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/twilight_forest/twilight_forest_stargate.png",
+	"engaged_texture": "sgjourneyaddon:textures/entity/stargate/milky_way/twilight_forest/twilight_forest_stargate_engaged.png",
+	
+	"wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/twilight_forest/twilight_forest_event_horizon.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 1,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			},
+			"back":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/twilight_forest/twilight_forest_event_horizon.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 0.75,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	
+	"shiny_wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/twilight_forest/twilight_forest_event_horizon_shiny.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 1,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			},
+			"back":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/twilight_forest/twilight_forest_event_horizon_shiny.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 0.75,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	
+	"symbols":
+	{
+		"encoded_symbols_glow": true,
+		"engage_encoded_symbols": true,
+		"engage_symbols_on_incoming": true,
+		"symbol_color":
+		{
+			"alpha": 1,
+			"red": 0.10588235294118,
+			"blue": 0.10588235294118,
+			"green": 0.10588235294118
+		},
+		"encoded_symbol_color":
+		{
+			"alpha": 1,
+			"red": 0.29803921568627,
+			"blue": 0,
+			"green": 1
+		},
+		"movie_chevron_locking": true,
+		"engaged_symbol_color":
+		{
+			"alpha": 1,
+			"red": 0.29803921568627,
+			"blue": 0,
+			"green": 1
+		},
+		"movie_primary_chevron": true
+	},
+	
+	"stargate_model":
+	{
+		"raise_back_chevrons": false
+	},
+	
+	"rotation_sounds":
+	{
+		"rotation_sound": "sgjourney:milky_way_ring_spin",
+		"rotation_stop_sound": "sgjourneyaddon:crafter_chevron_encode",
+		"rotation_startup_sound": "sgjourneyaddon:makeshift_spin_start"
+	},
+	
+	"chevron_incoming_sounds":
+	{
+		"default": "sgjourneyaddon:crafter_chevron_open"
+	},
+	
+	"chevron_engaged_sounds":
+	{
+		"default": "sgjourneyaddon:crafter_chevron_encode"
+	},
+	
+	"chevron_encode_sounds":
+	{
+		"default": "sgjourneyaddon:nox_chevron_encode"
+	},
+	
+	"chevron_open_sounds":
+	{
+		"default": "sgjourneyaddon:crafter_chevron_open"
+	},
+	
+	"wormhole_sounds":
+	{
+		"open": "sgjourneyaddon:crafter_gate_open",
+		"idle": "sgjourney:milky_way_wormhole_idle",
+		"close": "sgjourneyaddon:crafter_gate_close"
+	},
+	
+	"fail_sounds":
+	{
+		"default": "sgjourney:milky_way_dial_fail"
+	}
+}

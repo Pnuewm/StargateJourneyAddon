@@ -1,0 +1,188 @@
+{
+	"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/end/end_stargate.png",
+	"engaged_texture": "sgjourneyaddon:textures/entity/stargate/milky_way/end/end_stargate_engaged.png",
+	
+	"wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/end/end_event_horizon.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 1,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			},
+			"back":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/end/end_event_horizon.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 0.75,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	
+	"shiny_wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/end/end_event_horizon_shiny.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 1,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			},
+			"back":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/end/end_event_horizon_shiny.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 0.75,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	
+	"symbols":
+	{
+		"engage_encoded_symbols": true,
+		"engage_symbols_on_incoming": true,
+		"symbol_color":
+		{
+			"alpha": 1,
+			"red": 0.13725490196078,
+			"blue": 0.24313725490196,
+			"green": 0
+		},
+		"movie_chevron_locking": true,
+		"encoded_symbol_color":
+		{
+			"alpha": 1,
+			"red": 0.54509803921569,
+			"blue": 0.96862745098039,
+			"green": 0
+		},
+		"movie_primary_chevron": true,
+		"engaged_symbol_color":
+		{
+			"alpha": 1,
+			"red": 0.54509803921569,
+			"blue": 0.96862745098039,
+			"green": 0
+		},
+		"encoded_symbols_glow": true
+	},
+	
+	"stargate_model":
+	{
+		"raise_back_chevrons": false
+	},
+	
+	"rotation_sounds":
+	{
+		"rotation_sound": "sgjourneyaddon:makeshift_spin",
+		"rotation_stop_sound": "sgjourneyaddon:ori_chevron_engage",
+		"rotation_startup_sound": "sgjourneyaddon:makeshift_spin_start"
+	},
+	
+	"chevron_incoming_sounds":
+	{
+		"default": "sgjourneyaddon:nox_chevron_encode"
+	},
+	
+	"chevron_engaged_sounds":
+	{
+		"default": "sgjourneyaddon:ori_chevron_engage"
+	},
+	
+	"chevron_encode_sounds":
+	{
+		"default": "sgjourneyaddon:nox_chevron_encode"
+	},
+	
+	"chevron_open_sounds":
+	{
+		"default": "sgjourneyaddon:ori_chevron_encode"
+	},
+	
+	"wormhole_sounds":
+	{
+		"open": "sgjourneyaddon:crafter_gate_open",
+		"idle": "sgjourney:milky_way_wormhole_idle",
+		"close": "sgjourneyaddon:mek_ae2_wormhole_close"
+	},
+	
+	"fail_sounds":
+	{
+		"default": "sgjourney:milky_way_dial_fail"
+	}
+}

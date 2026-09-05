@@ -1,0 +1,188 @@
+{
+	"texture": "sgjourneyaddon:textures/entity/stargate/milky_way/nether/nether_mw_stargate.png",
+	"engaged_texture": "sgjourneyaddon:textures/entity/stargate/milky_way/nether/nether_mw_stargate_engaged.png",
+	
+	"wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/nether_event_horizon/nether_event_horizon.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 1,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			},
+			"back":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/nether_event_horizon/nether_event_horizon.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 0.75,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	
+	"shiny_wormhole":
+	{
+		"event_horizon":
+		{
+			"front":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/nether_event_horizon/nether_event_horizon_shiny.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 1,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			},
+			"back":
+			{
+				"texture": "sgjourneyaddon:textures/entity/stargate/nether_event_horizon/nether_event_horizon_shiny.png",
+				"columns": 1,
+				"frames": 32,
+				"rows": 32,
+				"rgba":
+				{
+					"alpha": 0.75,
+					"red": 1,
+					"green": 1,
+					"blue": 1
+				}
+			}
+		},
+		"disconnect_ticks": { "wait_ticks": 16, "fade_in_ticks": 10, "stable_ticks": 0, "fade_out_ticks": 20 },
+		"disconnect":
+		{
+			"front":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			},
+			"back":
+			{
+				"texture": "sgjourney:textures/entity/stargate/milky_way/milky_way_disconnect.png",
+				"rows": 20,
+				"columns": 1,
+				"frames": 20,
+				"rgba": { "red": 1.0, "blue": 1.0, "green": 1.0, "alpha": 1.0 }
+			}
+		}
+	},
+	
+	"symbols":
+	{
+		"encoded_symbols_glow": true,
+		"engage_encoded_symbols": true,
+		"engage_symbols_on_incoming": true,
+		"symbol_color":
+		{
+			"alpha": 1,
+			"red": 0.11764705882353,
+			"blue": 0.11764705882353,
+			"green": 0.11764705882353
+		},
+		"encoded_symbol_color":
+		{
+			"alpha": 1,
+			"red": 0.68235294117647,
+			"blue": 0,
+			"green": 0
+		},
+		"movie_chevron_locking": true,
+		"engaged_symbol_color":
+		{
+			"alpha": 1,
+			"red": 0.68235294117647,
+			"blue": 0,
+			"green": 0
+		},
+		"movie_primary_chevron": true
+	},
+	
+	"stargate_model":
+	{
+		"raise_back_chevrons": false
+	},
+	
+	"rotation_sounds":
+	{
+		"rotation_sound": "sgjourneyaddon:bloodgate_ring_spin",
+		"rotation_stop_sound": "sgjourneyaddon:crafter_chevron_encode",
+		"rotation_startup_sound": "sgjourney:empty"
+	},
+	
+	"chevron_incoming_sounds":
+	{
+		"default": "sgjourneyaddon:nox_chevron_encode"
+	},
+	
+	"chevron_engaged_sounds":
+	{
+		"default": "sgjourneyaddon:crafter_chevron_encode"
+	},
+	
+	"chevron_encode_sounds":
+	{
+		"default": "sgjourneyaddon:nox_chevron_encode"
+	},
+	
+	"chevron_open_sounds":
+	{
+		"default": "sgjourneyaddon:crafter_chevron_open"
+	},
+	
+	"wormhole_sounds":
+	{
+		"open": "sgjourneyaddon:dark_ascension_wormhole_open",
+		"idle": "sgjourneyaddon:silence_wormhole_idle",
+		"close": "sgjourneyaddon:dark_ascension_gate_close"
+	},
+	
+	"fail_sounds":
+	{
+		"default": "sgjourneyaddon:dark_ascension_dial_fail"
+	}
+}
