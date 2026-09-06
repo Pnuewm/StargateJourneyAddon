@@ -1,0 +1,19 @@
+{
+	"name": "sgjourney:stargate_pedestal_the_cat_dimension",
+	
+	"fallback": "minecraft:empty",
+	
+	"elements":
+	[
+		{
+			"weight": 1,
+			"element":
+			{
+				"location": "sgjourneyaddon:stargate/milky_way/pedestal/the_cat_dimension_stargate_pedestal",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}

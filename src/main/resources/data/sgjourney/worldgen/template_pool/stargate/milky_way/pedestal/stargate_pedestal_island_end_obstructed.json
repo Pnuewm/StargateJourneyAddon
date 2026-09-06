@@ -1,0 +1,19 @@
+{
+	"name": "sgjourney:universe_stargate_pedestal_island_end_obstructed",
+	
+	"fallback": "minecraft:empty",
+	
+	"elements":
+	[
+		{
+			"weight": 1,
+			"element":
+			{
+				"location": "sgjourneyaddon:stargate/milky_way/pedestal/end/island_end_stargate_pedestal_obstructed",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}
