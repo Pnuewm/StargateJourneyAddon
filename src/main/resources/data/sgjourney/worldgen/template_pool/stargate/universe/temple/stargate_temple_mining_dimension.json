@@ -1,0 +1,19 @@
+{
+	"name": "sgjourney:stargate_temple_mining_dimension",
+	
+	"fallback": "minecraft:empty",
+	
+	"elements":
+	[
+		{
+			"weight": 1,
+			"element":
+			{
+				"location": "sgjourneyaddon:stargate/universe/temple/mining_dimension_stargate_temple",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}
