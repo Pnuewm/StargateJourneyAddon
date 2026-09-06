@@ -1,0 +1,11 @@
+{
+	"name": "sgjourneyaddon.solar_system.mining_dimenstion",
+	"point_of_origin": "sgjourney:hammer",
+	"symbols": "sgjourney:galaxy_milky_way",
+	"symbol_prefix": 1,
+	"extragalactic_address": {"symbols": [4, 5, 6, 7, 8, 9, 10], "randomizable": true},
+	"galactic_addresses":
+	{
+		"sgjourney:milky_way": {"address": {"symbols": [14, 15, 6, 17, 8, 19], "randomizable": true}}
+	}
+}

@@ -9,5 +9,10 @@
   "sgjourneyaddon.configuration.items": "Item List",
   "sgjourneyaddon.configuration.logDirtBlock": "Log Dirt Block",
   "sgjourneyaddon.configuration.magicNumberIntroduction": "Magic Number Text",
-  "sgjourneyaddon.configuration.magicNumber": "Magic Number"
+  "sgjourneyaddon.configuration.magicNumber": "Magic Number",
+  
+  "sgjourneyaddon.solar_system.hyrule": "Hyrule",
+  "sgjourneyaddon.solar_system.mining_dimenstion": "Mining Dimension",
+  "sgjourneyaddon.solar_system.overworld": "Overworld",
+  "sgjourneyaddon.solar_system.twilight_forest": "Twilight Forest"
 }
