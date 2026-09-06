@@ -1,0 +1,11 @@
+{
+	"name": "sgjourneyaddon.solar_system.twilight_forest",
+	"point_of_origin": "sgjourney:aurum",
+	"symbols": "sgjourney:galaxy_milky_way",
+	"symbol_prefix": 26,
+	"extragalactic_address": {"symbols": [8, 9, 10, 11, 12, 13, 14], "randomizable": true},
+	"galactic_addresses":
+	{
+		"sgjourney:milky_way": {"address": {"symbols": [8, 9, 10, 11, 12, 13], "randomizable": true}}
+	}
+}

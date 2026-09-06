@@ -1,0 +1,11 @@
+{
+	"name": "sgjourneyaddon.solar_system.overworld",
+	"point_of_origin": "sgjourney:creeper",
+	"symbols": "sgjourney:galaxy_milky_way",
+	"symbol_prefix": 1,
+	"extragalactic_address": {"symbols": [1, 2, 3, 4, 5, 6, 7], "randomizable": true},
+	"galactic_addresses":
+	{
+		"sgjourney:milky_way": {"address": {"symbols": [1, 2, 3, 4, 5, 6], "randomizable": true}}
+	}
+}
