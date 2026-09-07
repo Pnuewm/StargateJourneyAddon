@@ -1,0 +1,12 @@
+{
+	"include_generated_addresses": true,
+	"addresses":
+	[
+		{ "address": { "dimension": "minecraft:the_nether", "galaxy": "sgjourney:milky_way" }, "weight": 1 },
+		{ "address": { "dimension": "minecraft:the_end", "galaxy": "sgjourney:milky_way" }, "weight": 1 },
+		{ "address": { "dimension": "ad_astra:glacio", "galaxy": "sgjourney:milky_way" }, "weight": 1 },
+		{ "address": { "dimension": "mining_dimension:mining_dimension", "galaxy": "sgjourney:milky_way" }, "weight": 1 },
+		{ "address": { "dimension": "the_cat_dimension:the_cat_dimension", "galaxy": "sgjourney:milky_way" }, "weight": 1 },
+		{ "address": { "dimension": "twilightforest:twilight_forest", "galaxy": "sgjourney:milky_way" }, "weight": 1 }
+	]
+}
